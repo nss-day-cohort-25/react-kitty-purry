@@ -1,4 +1,16 @@
 {
+    "projects": [
+        {
+            "id": 1,
+            "name": "Synthesis",
+            "description": "NLP platform to process email conversations between suspected child molesters so that FBI and police can target them"
+        },
+        {
+            "id": 2,
+            "name": "Gonzo",
+            "description": "Component library for entire Lonely Planet content website"
+        }
+    ],
     "people": [
         {
             "id": 1,
