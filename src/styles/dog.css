@@ -1,0 +1,8 @@
+.dog {
+    font-size: .5em;
+    border: 1px solid goldenrod;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: cornsilk;
+    margin: 10px 50px;
+}

@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
-
+import "./styles/dog.css"
 
 
 class Angus extends Component {
     render() {
         return (
-            <div>
+            <div className="dog">
                 <h3>My Pet</h3>
-                <div>Name: {this.props.name}</div>
-                <div>Breed: {this.props.breed}</div>
+                <div>Name: {this.props.pet.name}</div>
+                <div>Breed: {this.props.pet.breed}</div>
             </div>
         );
     }

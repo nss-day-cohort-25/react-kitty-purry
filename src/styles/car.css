@@ -1,0 +1,8 @@
+.car {
+    font-size: .5em;
+    border: 1px solid royalblue;
+    background-color: aliceblue;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px 50px;
+}
