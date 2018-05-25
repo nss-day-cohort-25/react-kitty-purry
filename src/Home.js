@@ -1,19 +1,15 @@
 import React, { Component } from 'react';
-import { MyContext } from "./data/PersonalDataProvider"
+
 
 
 class Home extends Component {
     render() {
         return (
-            <MyContext.Consumer>
-                {(context) => (
-                    <div>
-                        <div>{context.state.address.street}</div>
-                        <div>{context.state.address.city}</div>
-                        <div>{context.state.address.state}</div>
-                    </div>
-                )}
-            </MyContext.Consumer>
+            <div>
+                <div>{this.props.address.street}</div>
+                <div>{this.props.address.city}</div>
+                <div>{this.props.address.state}</div>
+            </div>
         );
     }
   }
