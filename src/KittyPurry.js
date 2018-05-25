@@ -19,12 +19,8 @@ class KittyPurry extends Component {
 
     componentDidMount () {
         fetch("http://localhost:5000/people/1")
-            .then(r => r.json())
-            .then(kitty => {
-                const newState = kitty
-
-                this.setState(newState)
-            })
+            .then(response => response.json())
+            .then(kitty => this.setState(kitty))
     }
 
     render() {
