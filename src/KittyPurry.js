@@ -18,7 +18,7 @@ class KittyPurry extends Component {
     }
 
     componentDidMount () {
-        fetch("http://localhost:5000/people/1")
+        fetch("https://nss-kitty-purry.herokuapp.com/people/1")
             .then(response => response.json())
             .then(kitty => this.setState(kitty))
     }

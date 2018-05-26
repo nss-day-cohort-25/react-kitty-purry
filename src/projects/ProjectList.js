@@ -14,7 +14,7 @@ class ProjectList extends Component {
     }
 
     componentDidMount() {
-        fetch("http://localhost:5000/projects")
+        fetch("https://nss-kitty-purry.herokuapp.com/projects")
             .then(r => r.json())
             .then(projects => {
                     this.setState({

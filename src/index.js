@@ -13,10 +13,10 @@ ReactDOM.render(
         <div>
             <NavBar/>
             <Route exact
-                path="/"
+                path="/react-kitty-purry/"
                 component={KittyPurry} />
             <Route exact
-                path="/projects"
+                path="/react-kitty-purry/projects/"
                 component={ProjectList} />
         </div>
     </Router>
