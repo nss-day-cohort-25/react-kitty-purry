@@ -12,11 +12,9 @@ class PoliticianList extends Component {
         return (
             <Provider>
                 <Context.Consumer>
-                {(context) => (
+                {context => (
                     <div className="projectlist">
-                        {context.state.politicians.map(p => (
-                            <Politician data={p} key={this.key++} />
-                        ))}
+                        {context.state.politicians.map(p => <Politician data={p} key={this.key++} /> )}
                     </div>
                 )}
                 </Context.Consumer>

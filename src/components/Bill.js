@@ -12,7 +12,7 @@ class Bill extends Component {
     render() {
         return (
             <Context.Consumer>
-                {(context) => {
+                {context => {
                     const bill = context.state.legislations.find(l => l.id === this.props.id)
                     const billInterests = context.state.legislationinterests.filter(
                         li => li.legislationId === this.props.id
@@ -21,9 +21,7 @@ class Bill extends Component {
                         <li className="bill">
                             {bill.name}
                             <ul>
-                                {billInterests.map(bi => (
-                                    <Interest id={bi.interestId} key={this.key++} />
-                                ))}
+                                {billInterests.map(bi => <Interest id={bi.interestId} key={this.key++} /> )}
                             </ul>
                         </li>
                     )

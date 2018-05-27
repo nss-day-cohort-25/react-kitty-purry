@@ -14,7 +14,7 @@ class Politician extends Component {
                 {this.props.data.name.first} {this.props.data.name.last}
                 <ol>
                 <Context.Consumer>
-                {(context) => (
+                {context => (
                     context.state.politicianlegislations.filter(pl => {
                         return pl.politicianId === this.props.data.id
                     }).map(pl => (

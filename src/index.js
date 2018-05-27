@@ -9,11 +9,11 @@ import NavBar from "./components/nav/NavBar"
 
 ReactDOM.render(
     <Router>
-        <div>
+        <span>
             <NavBar />
             <Route exact path="/interest" component={PoliticianList} />
             <Route exact path="/" component={PoliticianList} />
-        </div>
+        </span>
     </Router>
 , document.getElementById("root"))
 
