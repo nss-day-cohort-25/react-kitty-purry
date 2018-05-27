@@ -2,6 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://nss-day-cohort-25.github.io/react-kitty-purry",
   "dependencies": {
     "bootstrap": "^4.1.1",
     "react": "^16.4.0",
