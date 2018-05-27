@@ -6,7 +6,7 @@ export class Provider extends Component {
     state = { "politicians": [] }
 
     componentDidMount () {
-        fetch("http://localhost:5000/db/")
+        fetch("https://nss-kitty-purry.herokuapp.com/db/")
             .then(r => r.json())
             .then(db => {
                 this.setState(db)
