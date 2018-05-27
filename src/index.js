@@ -1,9 +1,20 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import KittyPurry from './KittyPurry';
-import registerServiceWorker from './registerServiceWorker';
+import React from "react"
+import ReactDOM from "react-dom"
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import registerServiceWorker from "./registerServiceWorker"
+import "./index.css"
+import PoliticianList from "./components/PoliticianList"
+import NavBar from "./components/nav/NavBar"
 
 
-ReactDOM.render(<KittyPurry />, document.getElementById('root'));
-registerServiceWorker();
+ReactDOM.render(
+    <Router>
+        <div>
+            <NavBar />
+            <Route exact path="/interest" component={PoliticianList} />
+            <Route exact path="/" component={PoliticianList} />
+        </div>
+    </Router>
+, document.getElementById("root"))
+
+registerServiceWorker()

@@ -1,0 +1,37 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "name": "Synthesis",
+            "description": "NLP platform to process email conversations between suspected child molesters so that FBI and police can target them"
+        },
+        {
+            "id": 2,
+            "name": "Gonzo",
+            "description": "Component library for entire Lonely Planet content website"
+        }
+    ],
+    "people": [
+        {
+            "id": 1,
+            "firstName": "Steve",
+            "lastName": "Brownlee",
+            "occupation": "Lead Instructor at NSS",
+            "address": {
+                "street": "1609 Appaloosa Ct",
+                "city": "Spring Hill",
+                "state": "TN"
+            },
+            "fame": "Katy Perry's Biggest Fan",
+            "car": {
+                "make": "Jaguar",
+                "model": "XJ"
+            },
+            "pet": {
+                "species": "Dog",
+                "name": "Angus",
+                "breed": "Australian Shepherd"
+            }
+       }
+    ]
+}

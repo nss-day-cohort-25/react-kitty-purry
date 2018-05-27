@@ -24,6 +24,10 @@ export class MyProvider extends Component {
         }
     }
 
+    componentDidMount () {
+        console.log("MyProvider did mount");
+    }
+
     render () {
         return (
             <MyContext.Provider value={{
