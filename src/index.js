@@ -3,7 +3,7 @@ import ReactDOM from "react-dom"
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import registerServiceWorker from "./registerServiceWorker"
 import "./index.css"
-import PoliticianList from "./components/PoliticianList"
+import PoliticianList from "./components/politician/PoliticianList"
 import NavBar from "./components/nav/NavBar"
 
 
