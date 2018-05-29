@@ -1,6 +1,6 @@
 import React, { Component } from "react"
-import { Context } from "../data/HonestAbeProvider"
-import Bill from "./Bill"
+import { Context } from "../../data/HonestAbeProvider"
+import Bill from "../Bill"
 
 class Politician extends Component {
     constructor (props) {

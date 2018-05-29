@@ -1,5 +1,5 @@
 import React, { Component } from "react"
-import { Context, Provider } from "../data/HonestAbeProvider"
+import { Context, Provider } from "../../data/HonestAbeProvider"
 import Politician from "./Politician"
 
 class PoliticianList extends Component {
